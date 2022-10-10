@@ -1,40 +1,50 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: A programming language is a vocabulary and set of grammatical rules
+for instructing a computer or computer device to perform specific tasks.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: JDK, also known as "Java Development Kit" is composed of the JRE and several
+development tools, an interpreter (java), compiler (javac), an archiver (jar), and a
+documentation generator (javadoc). JRE stands for java runtime environment. This environment is used
+ony to run code, not to develop. Java then interprets and compiles that code to machine language so
+the machine understands it. The archiver aggregates the many files into one. Javadoc is a document
+generator tool for generating standard documentation in HTML format.
+
 
 What is an IDE?
-Answer:
+Answer: Integrated development environment is a software application that helps programmers develop
+software code efficiently. It contains a code editor, a compiler or editor, and a debugger. This application
+increases developer productivity by combining these capabilities.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: IntelliJ, Eclipse, Visual Studio
 
 Explain the entire java life cycle.
 Answer:
 
 What is a class?
-Answer:
+Answer: A class is the blueprint for creating objects and defining object data types and methods
 
 What is an object?
 Answer:
 
 What is the entry point of a Java project?
-Answer:
+Answer: The Main method.
 
 Why is the main() method static?
-Answer:
+Answer: It belongs to the class itself.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: The parent class.
 
 What is difference between path and classpath variables?
 Answer:
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: Abstract class can be made up of abstract and concrete methods. Interface class can only be
+composed of abstract methods.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
 Answer:
