@@ -15,6 +15,7 @@ public class Fibonacci {
 
         System.out.print("Fibonacci Series of " + maxNumber + " numbers :");
 
+
         for (int i = 1; i <= maxNumber; ++i) {
             System.out.print(previousNumber + " ");
 
@@ -25,6 +26,7 @@ public class Fibonacci {
             int sum = previousNumber + nextNumber;
             previousNumber = nextNumber;
             nextNumber = sum;
+
         }
     }
 }
