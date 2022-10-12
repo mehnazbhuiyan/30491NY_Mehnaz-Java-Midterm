@@ -53,7 +53,7 @@ public class Permutation {
         // take input from users
         System.out.print("Enter the String: ");
         String data = input.nextLine();
-        System.out.println("Permutations of" + data + ": \n" + Main.getPermutation(data));
+        System.out.println("Permutations of " + data + ": \n" + Main.getPermutation(data));
 
     }
     // Implement Here
