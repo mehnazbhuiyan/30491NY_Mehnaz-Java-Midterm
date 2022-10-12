@@ -11,21 +11,26 @@ public class Factorial {
      * HINT: Factorial of 5! = 5 x 4 X 3 X 2 X 1 = 120
      */
 
-    class Test {
+    public static int factorial(int x) {
 
-         int factorial(int n) {
-            if (n == 0)
-                return 1;
-            return n = factorial(n - 1);
+        // exit criteria for recursion
+        if (x <= 1) {
+            return x;
         }
+        // recursion criteria
+        else {
 
-        public void main(String[] args) {
-            int num = 6;
-            System.out.println("Factorial of " + num + " is " + factorial(6));
+            System.out.println(x);
+            return x * factorial(x-1);
 
         }
     }
+
+    public static void main(String[] args) {
+        int result = factorial(6);
+        System.out.println("Factorial of 6! is " + result);
+
+    }
+
 }
-
-
 
