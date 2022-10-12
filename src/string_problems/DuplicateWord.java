@@ -39,6 +39,8 @@ public class DuplicateWord {
             // displays the duplicate word if count is greater than 1
             if (count > 1 && words[i] != "0") {
                 System.out.println(words[i]);
+
+
             }
         }
 
