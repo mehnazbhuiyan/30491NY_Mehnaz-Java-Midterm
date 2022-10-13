@@ -8,6 +8,6 @@ public class UnitTestingMath {
 
     public static void main(String[] args) {
 
-
+        System.out.println(Factorial.factorial(6));
     }
 }

@@ -13,11 +13,11 @@ public class Fibonacci {
         int previousNumber = 0;
         int nextNumber = 1;
 
-        System.out.print("Fibonacci Series of " + maxNumber + " numbers :");
+        System.out.print("Fibonacci Series of " + maxNumber + " numbers: ");
 
 
         for (int i = 1; i <= maxNumber; ++i) {
-            System.out.print(previousNumber + " ");
+            System.out.print(previousNumber + "," + " ");
 
             //on each iteration, we are assigning second number
             //to the first number and assigning the sum of the last two
