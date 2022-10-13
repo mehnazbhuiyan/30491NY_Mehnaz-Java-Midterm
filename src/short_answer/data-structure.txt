@@ -1,25 +1,28 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer: Data Structures are necessary for designing efficient algorithms. It provides reusability and abstraction.
 
 What are the various operations that can be performed on different data structures?
 Answer:
 
 When would we use data structures in the real world?
-Answer:
+Answer: Traversing, searching, inserting, deleting, sorting, merging.
 
 What is an Array?
-Answer:
+Answer :An array is a container object that holds a fixed number of values of a single type.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: Array is a fixed length once it is created while ArrayList length can be changed.
 
 What is a LinkedList?
-Answer:
+Answer: A LinkedList is a data structure where the objects are arranged in a linear order. It consists of nodes where
+each node contains a data field and a reference(link) to the next node in the list.
 
 How is an Array different from LinkedList?
-Answer:
+Answer: An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a
+node where node consists of two parts, i.e., data and address. Array elements store in a contiguous memory location.
+Linked list elements can be stored anywhere in the memory or randomly stored.
 
 What is a Queue?
 Answer:

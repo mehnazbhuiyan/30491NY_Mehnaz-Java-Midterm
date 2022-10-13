@@ -207,28 +207,36 @@ Answer: stack is used to store the order of method execution and local variables
 and it uses dynamic memory allocation and deallocation.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: It allows an executing Java program to examine or "introspect" upon itself, and manipulate internal properties
+of the program. It is useful because reflection gives us data about the class to which an object has a place and
+furthermore the methods for that class executes by utilizing the object. Through reflection, we can summon method at
+runtime independent of the access specifier utilized with them
 
 What is multithreading in Java?
-Answer:
+Answer: A process of executing two or more threads simultaneously for maximum utilization of the CPU
 
 What is synchronization in Java?
-Answer:
+Answer: Synchronization in java is the capability to control the access of multiple threads to any shared resource.
 
 What is a Framework?
-Answer:
+Answer: Java frameworks are bodies of reusable pre-written code acting as templates that developers can use to create
+applications by filling in custom code as needed. Frameworks are created to be used over and over so that developers can
+program applications without the manual overhead of creating everything from scratch
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer: Selenium, JUnit, TesNG, SerenityBDD.
 
 What are jUnit and testNG?
-Answer:
+Answer: Open source testing frameworks that allow you to write or run tests.
 
 What are the dependencies for this project?
-Answer:
+Answer: JSon, MySQL connector.
 
 What is dependency injection in Java?
-Answer:
+Answer: Dependency injection enables you to turn regular Java classes into managed objects and to inject them into any
+other managed object. Using dependency injection, your code can declare dependencies on any managed object.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer:Static binding is a binding in which name can be associated with the class during compilation time , and it is
+also called as early Binding. Dynamic binding is a binding in which name can be associated with the class during
+execution time, it is also called as Late Binding.
