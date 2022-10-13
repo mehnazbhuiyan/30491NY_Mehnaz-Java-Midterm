@@ -9,9 +9,10 @@ public class Fibonacci {
      **/
 
     public static void main(String[] args) {
-        int maxNumber = 40;
-        int previousNumber = 0;
-        int nextNumber = 1;
+        getFibonacci(40, 0, 1);
+    }
+    public static int getFibonacci (int maxNumber, int previousNumber, int nextNumber) {
+
 
         System.out.print("Fibonacci Series of " + maxNumber + " numbers: ");
 
@@ -28,5 +29,6 @@ public class Fibonacci {
             nextNumber = sum;
 
         }
+        return maxNumber;
     }
 }

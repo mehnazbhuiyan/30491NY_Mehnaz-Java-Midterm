@@ -7,7 +7,9 @@ public class UnitTestingMath {
      */
 
     public static void main(String[] args) {
+        System.out.println(Fibonacci.getFibonacci(40, 0,1));
 
-        System.out.println(Factorial.factorial(6));
+
+
     }
 }
