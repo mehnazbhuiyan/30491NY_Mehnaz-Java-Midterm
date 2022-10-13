@@ -25,49 +25,74 @@ node where node consists of two parts, i.e., data and address. Array elements st
 Linked list elements can be stored anywhere in the memory or randomly stored.
 
 What is a Queue?
-Answer:
+Answer: Queue in Java is a linear-ordered data structure that follows FIFO (First In, First Out) ordering of elements.
+This means that the element inserted first in the queue will be the first element to be removed
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: Stack is a linear data structure which follows a particular order in which the operations are performed. The order
+may be LIFO(Last In First Out) or FILO(First In Last Out).
 
 What is FIFO and LIFO?
-Answer:
+Answer: First in, first out. Last in, first out.
 
 Explain Big O Notation?
-Answer:
+Answer: Big O Notation is a way to measure an algorithm's efficiency. It measures the time it takes to run your function
+as the input grows.
 
 What is the best case to search an element from an array?
-Answer:
+Answer: Sequential search is the best that we can do when trying to find a value in an unsorted array. 1 But if the array
+is sorted in increasing order by value, then we can do much better. We use a process called binary search.
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: If the value is not in the array at all, then we must look at n values if the array holds n values. This would
+be called the worst case for sequential search.
 
 Describe what a tree data structure is?
-Answer:
+Answer: A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node
+of the tree stores a value and a list of references to other nodes (the “children”). This data structure is a specialized
+method to organize and store data in the computer to be used more effectively.
 
 Describe what a graph data structure is?
-Answer:
+Answer: A graph is a non-linear kind of data structure made up of nodes or vertices and edges. The edges connect any two
+nodes in the graph, and the nodes are also known as vertices.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashMap is non-synchronized. It is not thread-safe and can’t be shared between many threads without proper
+synchronization code whereas Hashtable is synchronized. It is thread-safe and can be shared with many threads.HashMap
+allows one null key and multiple null values whereas Hashtable does not allow any null key or value. HashMap allows one
+null key and multiple null values whereas Hashtable does not allow any null key or value.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMaps stores entries in key-value pairs. Each key is unique and allows for quicker accessibility of an element.
+The keys also have a separate type. When you want to access a value by a specific key, a HashMap is useful.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: t occurs when a program attempts to access an invalid index in an array i.e. an index that is less than 0, or
+equal to or greater than the length of the array
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: You can use the Object.clone() method, System.arraycopy() method, or Arrays.copyOf() method.
 
 What is DFS and BFS?
-Answer:
+Answer: Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. BFS (Breadth
+First Search) − It is a tree traversal algorithm that is also known as Level Order Tree Traversal. In this traversal we
+will traverse the tree row by row i.e. 1st row, then 2nd row, and so on.
 
 What is Recursion?
-Answer:
+Answer: Recursion is the technique of making a function call itself. This technique provides a way to break complicated
+problems down into simple problems which are easier to solve.
+
 
 What are linear and non-linear data Structures?
-Answer:
+Answer: n a linear data structure, the data elements connect to each other sequentially. A user can transverse each
+element through a single run. In a non-linear data structure, the data elements connect to each other hierarchically.
+Thus, they are present at various levels.
 
 Outline different sorting algorithms and their time complexities:
+Heap Sort - O(n log(n))
+Bubble Sort - O(n^2)
+Bucket Sort - O(n + k)
+Selection Sort - O(n^2)
+Insertion Sort - O(n^2)
+
 
